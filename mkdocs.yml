@@ -1,4 +1,4 @@
-site_name: 闲聊波尔卡
+site_name: Fiona
 theme: 
   name: material
   icon:
@@ -27,25 +27,7 @@ theme:
   language: zh
 
 nav:
-  - 算法打卡: http://alg.haohaha.cn
-  - 数学笔记: http://math.haohaha.cn
-  - 英语笔记: http://eng.haohaha.cn
-  - CS笔记: http://cs.haohaha.cn
-  - 我爱OS: http://os.haohaha.cn
-  - 闲聊波尔卡:  
-    - Home: index.md
-    - Plan: 
-      - 极限规划: plan/PEE-plans.md
-      - 周任务: plan/Week-Plan.md
-      - todo-list: plan/todo-list.md
-    - report:
-      - 230903: OSCA/report/230903.md
-    - 建设清单: construction/construction.md
-    - 美食:
-      - 品尝: delicious/taste.md
-      - 制作: delicious/cook.md
-    - 美景:
-      - 所见: scenery/scenery.md
+    - 主页: index.md
 
 plugins:
   - mermaid2:
@@ -55,13 +37,13 @@ plugins:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
-  homepage: http://haohaha.cn
+  homepage: http://fiona010203.github.io/Fiona
   social: # icons
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/1436476753
-      name: Bilibili | 浩哈哈哈哈 # 鼠标悬浮提示
+#   - icon: fontawesome/brands/bilibili
+#     link: https://space.bilibili.com/1436476753
+#     name: Bilibili | 浩哈哈哈哈 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/Haohahahaha
-      name: GitHub | Haohahahaha
+      link: https://github.com/Fiona010203
+      name: GitHub | Fiona
 ## [bottom-left corner]
-copyright: Copyright &copy; 2022-现在 浩哈哈哈哈_ # 左下角的版权声明
+copyright: Copyright &copy; 2023-现在 Fiona # 左下角的版权声明
